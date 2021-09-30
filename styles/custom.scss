@@ -1,0 +1,38 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('/image/bg2.jpg');
+    .welcome-text-wrapper {
+        padding-top: 50px;
+    }
+}
+
+.navlink-custom {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+    .nav-link {
+        color: white;
+    }
+}
+
+.limiter{
+    .container-login100 {
+        background-image: url('/image/bg2.jpg');
+    }
+}
+
+.logo-cstm {
+    a {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.welcome-home {
+    background-image: url('/image/bg2.jpg');
+}
