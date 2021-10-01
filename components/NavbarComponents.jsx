@@ -34,10 +34,10 @@ const NavbarComponnent = (props) => {
                 <Link href="/contact"><a className="navlink-custom"><NavLink>About</NavLink></a></Link>
               </NavItem>
               <NavItem>
-                <Link href="/login"><a className="navlink-custom"><NavLink>Login</NavLink></a></Link>
+                <Link href="/auth/login"><a className="navlink-custom"><NavLink>Login</NavLink></a></Link>
               </NavItem>
               <NavItem>
-                <Link href="/register"><a className="navlink-custom"><NavLink>Register</NavLink></a></Link>
+                <Link href="/auth/register"><a className="navlink-custom"><NavLink>Register</NavLink></a></Link>
               </NavItem>
               
             </Nav>

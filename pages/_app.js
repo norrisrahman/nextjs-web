@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <head>
-      <title>Web Portofolio</title>
+      <title>MENGKIS.</title>
     </head>
     <Component {...pageProps} />
   </>
